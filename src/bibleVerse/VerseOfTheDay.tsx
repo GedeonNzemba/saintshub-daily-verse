@@ -82,7 +82,6 @@ const VerseOfTheDay = () => {
                 title="Bible Website"
                 src="https://www.bible.com/verse-of-the-day"
                 scrolling='no'
-                frameBorder="0"
             ></iframe>
            </div>
     );

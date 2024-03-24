@@ -2,18 +2,17 @@
 
 .container {
     position: relative;
-    overflow: hidden;
-    height: 830px;
-    width: 500px;
+    height: 830px !important;
+    width: 500px !important;
 }
 
 #daily-verse {
     position: absolute;
     transform: translate(-50%, 0%);
-    width: 2000px;
-    height: 1000px;
-    left: 307px;
-    top: -142px 
+    width: 2000px !important;
+    height: 1000px !important;
+    left: 307px !important;
+    top: -142px !important;
 }
 
 
