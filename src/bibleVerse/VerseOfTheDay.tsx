@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import './bible.css'
 
 const VerseOfTheDay = () => {
-    const iframeRef = useRef<HTMLIFrameElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
-    const iframeStyles = `
+  const iframeStyles = `
     header {
         display: none !important;
       }
@@ -72,19 +72,19 @@ const VerseOfTheDay = () => {
       
     `;
 
-    let fr = 'https://www.bible.com/fr/verse-of-the-day'
+  let fr = 'https://www.bible.com/fr/verse-of-the-day'
 
-    return (
-           <div className='container'>
-             <iframe
-                ref={iframeRef}
-                id='daily-verse'
-                title="Bible Website"
-                src="https://www.bible.com/verse-of-the-day"
-                scrolling='no'
-            ></iframe>
-           </div>
-    );
+  return (
+    <div className='container'>
+      <iframe
+        ref={iframeRef}
+        id='daily-verse'
+        title="Bible Website"
+        src="https://www.bible.com/verse-of-the-day"
+        scrolling='no'
+      ></iframe>
+    </div>
+  );
 };
 
 export default VerseOfTheDay;
