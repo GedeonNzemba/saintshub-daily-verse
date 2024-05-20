@@ -44,6 +44,10 @@ const VerseOfTheDay = () => {
       a[href=""] {
         display: none;
       }
+
+      a.mbs-4 button {
+        display: none !important;
+      }
       
       header {
         padding-inline: 0;
